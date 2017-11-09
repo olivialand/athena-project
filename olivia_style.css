@@ -1,0 +1,130 @@
+body{
+	margin-bottom:178px;
+}
+
+.page-wrap{
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+.site-title{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 40px;
+	text-align: left;
+	padding-bottom: 0px;
+	margin-top: 25px;
+
+}
+
+.site-description{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0px;
+
+}
+
+.main-nav{
+	text-align: right;
+	list-style-type: none;
+	font-family: 'Cormorant Garamond', serif;
+	text-transform: uppercase;
+	font-size: .7em;
+	display: inline-block;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	width: 100%;
+
+}
+
+
+li{
+	float: left;
+}
+
+.about-page{
+	padding:5px;
+	display: block;
+
+}
+
+.blog-link{
+	padding: 5px;
+	display: block;
+	
+}
+
+.nyc-guide{
+	padding:5px;
+	display: block;
+	
+}
+
+.contact{
+	padding: 5px;
+	display: block;
+	
+}
+
+img{
+	width:100%;
+	height: 90%;
+}
+
+footer {
+	background-color: lightblue;
+	padding: 15px;
+	color: green;
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	margin-bottom: 0;
+	display: none;
+}
+/* # for targeting ID*/
+/* . for targeting class*/
+.logo {
+	width: 100px;
+	height: 100px;
+	background-image: url('belle.jpg');
+	border-radius: 50%;
+
+	background-size: cover;
+	background-position: center;
+	/*will a center anything*/
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+/*style the nav*/
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+/*turns on flexbox*/
+	display: flex;
+	justify-content: left;
+
+}
+footer ul li {
+	margin: 15px;
+}
+footer a {
+	
+	color: lightgrey;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+footer a:hover{
+	color: orange;
+}
